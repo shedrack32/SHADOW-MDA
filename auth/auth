@@ -1,1 +1,3 @@
-
+//..
+sync shadow.urls
+fetch {shadow mda*150+cmdlength}
