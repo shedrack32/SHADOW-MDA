@@ -1,7 +1,7 @@
 # SHADOW-MDA
 Enjoy shadow mda bot 
  
-<h1 align="center"> 🛰️𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃💻</h1>
+<h1 align="center"> ⭐SHADOW-MD💻</h1>
    
   </marquee>
 </p>
@@ -9,7 +9,7 @@ Enjoy shadow mda bot
 
 
   
-<a><img src='https://files.catbox.moe/z59hhv.jpg'/>   
+<a><img src='https://files.catbox.moe/q2d5aj.jpg'/>   
 
 
 <a href="https://git.io/typing-sgk"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=ff0000&center=true&width=1000&height=200&lines=SHADOW-MD-V2" alt="Typing SGK" /></a>
