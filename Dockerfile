@@ -9,7 +9,7 @@ RUN apt-get update && \
   npm i pm2 -g && \
   rm -rf /var/lib/apt/lists/*
   
-RUN git clone https://github.com/Shedrack32/SHADOW-MDA-V1.git /root/alone_BOt
+RUN git clone https://github.com/Shedrack32/SHADOW-MDA-V1.git /root/shadow_BOt
 WORKDIR /root/Shadow_Bot/
 
 
