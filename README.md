@@ -1,5 +1,4 @@
-# SHADOW-MDA
-Enjoy shadow mda bot 
+# SHADOW-MDA 
  
 <h1 align="center"> ⭐SHADOW-MD💻</h1>
    
