@@ -20,7 +20,7 @@
 
 
  ## 👇✓GETING SESSIOM ID✓
-[![Get Session ID Here](https://img.shields.io/static/v1?label=Session%20ID&message=Generate&color=FF4500&style=for-the-badge&logo=firefox&logoColor=orange)](https://github.com/Shedrack32/scanner.onrender.com) 
+[![Get Session ID Here](https://img.shields.io/static/v1?label=Session%20ID&message=Generate&color=FF4500&style=for-the-badge&logo=firefox&logoColor=orange)](https://Shedrack32/scanner.onrender.com) 
 
  ## 👇¥DEPLOY TO HEROKU¥
 
