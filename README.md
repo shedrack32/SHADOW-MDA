@@ -20,9 +20,7 @@
 
 
  ## 👇✓GETING SESSIOM ID✓
-
-<a href="https://Shedrack32/scanner.onrender.com"><img title="TAP FOR SESSION ID" src="https://img.shields.io/badge/LOG IN FOR SESSION ID-h?color=pink&style=for-the-badge&logo=porsche&logoColor=pink" width="240" height="38.45"/></a></p>
-
+[![Get Session ID Here](https://img.shields.io/static/v1?label=Session%20ID&message=Generate&color=FF4500&style=for-the-badge&logo=firefox&logoColor=orange)](https://shadow-scanner.onrender.com) 
 
  ## 👇¥DEPLOY TO HEROKU¥
 
