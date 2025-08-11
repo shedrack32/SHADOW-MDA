@@ -1,5 +1,5 @@
 {
-  "name": "SHADOW-MD",
+  "name": "SHADOW-MDA",
   "website": "https://files.catbox.moe/ykdtkm.jpeg",
   "description": "SHADOW is a multidevice WhatsApp bot built to make your WhatsApp enjoyable..",
   "keywords": [
@@ -55,7 +55,7 @@
     },
     "BOT_NAME": {
       "description": "Give a name for your bot",
-      "value": "SHADOW MD",
+      "value": "SHADOW MDA",
       "required": false
     },
     "PUBLIC_MODE": {
@@ -80,7 +80,7 @@
     },
     "OWNER_NAME": {
       "description": "Your name",
-      "value": "Shadow",
+      "value": "Shadow-mda",
       "required": false
     },
     "AUTO_READ_MESSAGES": {
