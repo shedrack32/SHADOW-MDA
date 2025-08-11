@@ -11,7 +11,7 @@
 <a><img src='https://files.catbox.moe/q2d5aj.jpg'/>   
 
 
-<a href="https://git.io/typing-sgk"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=ff0000&center=true&width=1000&height=200&lines=SHADOW-MD-V2" alt="Typing SGK" /></a>
+<a href="https://git.io/typing-sgk"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=ff0000&center=true&width=1000&height=200&lines=SHADOW-MDA-V2" alt="Typing SGK" /></a>
 
 
 
